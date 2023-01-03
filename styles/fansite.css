@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+    color: antiquewhite;
+}
+
+.main {
+    height: 100vh;
+    background-image: url('https://guitar.com/wp-content/uploads/2022/11/Guitar-Ritchie-Blackmore@2000x1500-1068x801.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.563);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(42, 36, 36, 0.781);
+    padding: 1em 5em;
+    
+}
+
+nav h2 {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 50px;
+    line-height: 0.8em;
+}
+
+nav h2 a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {    
+    margin-right: 2em;
+    text-transform: capitalize;
+    font-size: 24px;
+    transition: all 0.3s linear;
+    padding: 0.3em;
+    border: 1px solid rgba(250, 223, 187, 0);
+    border-radius: 5px 10px 5px 15px;
+}
+
+nav ul li:hover {
+    color: rgb(250, 223, 187);
+    border: 1px solid rgb(250, 223, 187);
+    box-shadow: -1px -1px 12px 2px rgba(250,223,187,0.66) inset;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+.main-page-heading {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30vh;    
+}
+
+.main-page-heading h1 {
+    font-size: 70px;    
+}
+
+/*-------------------------------------------*/
+
+.bio {
+    height: 110vh;
+    background-image: url('https://townsquare.media/site/295/files/2021/01/Ritchie-Blackmore-Steve-Thorne.jpg?w=980&q=75');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.bio-content__container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 1em;
+    margin-top: 2em;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.632);
+}
+
+.bio-content__container p {
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+/*---------------------------------------------------*/
+
+.discografy {
+    height: 115vh;
+    background-image: url('https://guitar.com/wp-content/uploads/2022/11/Guitar-Ritchie-Blackmore@2000x1500-1068x801.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative; 
+    
+}
+
+.discografy-content-container {
+    padding: 2em 4em;
+}
+
+.discografy-content-container__group {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgba(250, 223, 187, 0.256);
+    padding: 1em; margin-bottom: 2em;
+    background-color: rgba(0, 0, 0, 0.614);
+}
+
+.container__group__albums {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.discografy-content-container__group__head-item {
+    border: 1px solid rgb(250, 223, 187);
+    display: flex;
+    justify-content: center; align-items: center; 
+    width: 25%;
+    text-transform: uppercase;
+    padding: 0.5em;
+}
+
+.discografy-content-container__group__head-item h2 {
+    text-align: center;
+}
+
+.discografy-content-container__group__item {
+    width: 17%; height: auto;
+    padding: 0.5em;
+    margin-left: 1em;
+    transition: transform 0.4s ease;
+    position: relative;
+}
+
+.discografy-content-container__group__item:hover {
+    transform: scale(102%);
+}
+
+.discografy-content-container__group__item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.discografy-content-container__item__img-block {
+    width: 100%;
+    height: 60%;
+    margin: 0 auto;
+    margin-bottom: 0.7em;
+}
+
+.discografy-content-container__item__img-block img {
+    width: 100%;
+    height: 100%;
+}
+
+.discografy-content-container__item__text-block {
+    text-align: center;
+}
+
+/*----------------------------------------------------------------*/
+
+.live {
+    height: 200vh;
+    background-image: url('https://townsquare.media/site/295/files/2021/01/Ritchie-Blackmore-Steve-Thorne.jpg?w=980&q=75');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.live-item__container {
+    padding: 3em 5em;
+    background-color: rgba(0, 0, 0, 0.614);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.live-item__container h2 {
+    text-align: center;
+    padding: 0.2em;
+    border-bottom: 4px solid rgb(250, 223, 187);
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.live-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.live-item__descr {
+    width: 35%;
+    font-size: 20px;
+}
+
+.live-item__descr p {
+    margin-bottom: 1em;
+}
